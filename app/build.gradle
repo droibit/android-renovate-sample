@@ -57,6 +57,8 @@ dependencies {
     implementation libs.playServices.wearable
 
     implementation libs.okhttp
+    implementation libs.retrofit.runtime
+    implementation libs.retrofit.converterGson
     implementation libs.customTabsLauncher
     implementation libs.messenger
 

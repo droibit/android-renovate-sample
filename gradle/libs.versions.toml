@@ -5,6 +5,7 @@ androidx-compose = "1.1.0"
 androidx-leanback = "1.1.0-rc02"
 androidx-lifecycle = "2.4.1"
 okhttp = "5.0.0-alpha.4"
+retrofit = "2.9.0"
 
 [libraries]
 androidx-annotation = { module = "androidx.annotation:annotation", version = "1.4.0-alpha02" }
@@ -24,6 +25,8 @@ messenger = { module = "com.github.droibit:messenger", version = "3.3.0" }
 playServices-base = { module = "com.google.android.gms:play-services-base", version = "18.0.1" }
 playServices-wearable = { module = "com.google.android.gms:play-services-wearable", version = "17.1.0" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+retrofit-runtime = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-converterGson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 junit = { module = "junit:junit", version = "4.13.2" }
 
 [bundles]
