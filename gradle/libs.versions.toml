@@ -1,5 +1,5 @@
 [versions]
-android-gradle-plugin = "7.1.0"
+android-gradle-plugin = "7.1.1"
 kotlin = "1.5.21"
 androidx-compose = "1.0.1"
 androidx-lifecycle = "2.3.1"
