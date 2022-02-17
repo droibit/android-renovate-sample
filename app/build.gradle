@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.renovate_sample"
-        minSdk 23
+        minSdk 24
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -55,6 +55,9 @@ dependencies {
     implementation libs.androidx.leanback
     implementation libs.playServices.base
     implementation libs.playServices.wearable
+
+    implementation libs.kotlin.coroutines.core
+    implementation libs.kotlin.coroutines.android
 
     implementation libs.okhttp
     implementation libs.retrofit.runtime
