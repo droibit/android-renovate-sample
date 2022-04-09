@@ -12,8 +12,23 @@
     ],
     "packageRules": [
         {
+            "groupName": "Android Gradle Plugin",
+            "matchPackageNames": [
+                "com.android.library",
+                "com.android.application"
+            ]
+        },
+        {
+            "groupName": "Kotlin",
+            "matchPackagePatterns": [
+                "^org\\.jetbrains\\.kotlin:"
+            ]
+        },
+        {
             "groupName": "kotlinx.coroutines",
-            "matchPackagePatterns": ["^org\\.jetbrains\\.kotlinx:kotlinx-coroutines"]
+            "matchPackagePatterns": [
+                "^org\\.jetbrains\\.kotlinx:kotlinx-coroutines"
+            ]
         }
     ]
 }
