@@ -12,6 +12,12 @@
     ],
     "packageRules": [
         {
+            "groupName": "Gradle",
+            "matchPackageNames": [
+                "gradle"
+            ]
+        },
+        {
             "groupName": "Android Gradle Plugin",
             "matchPackageNames": [
                 "com.android.library",
